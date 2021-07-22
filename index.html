@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Connect Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <!-- Slick slider -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+</head>
+
+<body>
+    <!-- menu -->
+    <!-- <header class="menu fixed-top">
+        <div class="container-fluid">
+            <main class="main-menu">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item logo">
+                        <a class="nav-link" href="/"><img src="img/logo.png" alt="logo"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu-text" href="/products/">Продукты</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu-text" href="/about/">Про Аэрекс</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu-text" href="/mediacentre/">Медиацентр</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu-text" href="/contacts/">КОНТАКТЫ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link language" href="/language/ru/">RU <img class="mnu-svg"
+                                src="img/arrow-down.svg"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu-text" href="/call/"><img src="img/phone.svg">+38 (044) 334-43-37 <img
+                                class="mnu-svg" src="img/arrow-down.svg"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link button-call" href="/call/">заказать звонок</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/libra/"><img src="img/libra.svg"></a>
+                    </li>
+                    <li class="nav-item position-relative">
+                        <img class="position-absolute num" src="img/product-num.svg" alt="/">
+                        <a class="nav-link" href="/cart/"><img src="img/cart.svg"></a>
+                    </li>
+                </ul>
+            </main>
+        </div>
+    </header> -->
+
+    <!-- site-navigation -->
+    <div class="site-navigation">
+        <div class="container-fluid">
+            <ul class="site-links">
+                <li><a href="/">Главная страница</a></li>
+                <li><img src="img/right-arrow.svg" alt=""></li>
+                <li><a href="/">категория/название товара</a></li>
+                <li><img src="img/right-arrow.svg" alt=""></li>
+                <li><a class="links-bold" href="/">РЕЦИРКУЛЯТОР БАКТЕРИЦИДНЫЙ АЭРЭКС СТАНДАРТ 8</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Product -->
+    <section class="product-contain">
+        <div class="card">
+            <div class="container-fluid">
+                <!-- title -->
+                <div class="card-title">
+                    <h4>все о товаре</h4>
+                    <div class="line"></div>
+                </div>
+                <div class="row card-content">
+                    <!-- product-images -->
+                    <div class="col-12 col-lg-6 col-xl-5 product-content">
+                        <div class="img-box">
+                            <img src="img/component-1.png" class="product-img">
+                        </div>
+                        <div class="row components">
+                            <div class="col-3 mini-img">
+                                <img src="img/component-2.png" class="product-img">
+                            </div>
+                            <div class="col-3 mini-img">
+                                <img src="img/component-3.png" class="product-img">
+                            </div>
+                            <div class="col-3 mini-img">
+                                <img src="img/component-2.png" class="product-img">
+                            </div>
+                            <div class="col-3 mini-img">
+                                <img src="img/component-3.png" class="product-img">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- description -->
+                    <div class="col-xl-4 product-description">
+                        <h3>РЕЦИРКУЛЯТОР БАКТЕРИЦИДНЫЙ АЭРЭКС СТАНДАРТ 8</h3>
+                        <p>Код товара: Аэрэкс Стандарт 8</p>
+                        <div class="product-number">
+                            <div class="product-price">
+                                <h1><span id="calculation">1900</span>грн</h1>
+                                <strike>2000 грн</strike>
+                            </div>
+                            <div class="counter" id="counter">
+                                <input type="button" class="count-minus" id="buttonCountMinus" value="-">
+                                <div class="count-number" id="buttonCountNumber">1</div>
+                                <input type="button" class="count-plus" id="buttonCountPlus" value="+">
+                            </div>
+                        </div>
+                        <div class="product-option">
+                            место для опций
+                        </div>
+                        <div class="add-block">
+                            <a class="button-add">
+                                Добавить в корзину
+                            </a>
+                        </div>
+                        <div class="button-group">
+                            <a class="button-buy">Купить в один клик</a>
+                            <a class="button-libra"><img src="img/libra-button.png"></a>
+                        </div>
+                    </div>
+                    <!-- buy -->
+                    <div class="col-xl-3">
+                        <div class="product-delivery">
+                            <div class="buy-title">
+                                <img src="img/delivery-car.svg" alt="car">
+                                <h3>Доставка</h3>
+                            </div>
+                            <ul class="delivery-list">
+                                <li>- Самовывоз (Киев, Днепр)</li>
+                                <li>- Курьер (Киев, Днепр)</li>
+                                <li>- Новая почта</li>
+                                <li>- Justin</li>
+                                <li>- Укр почта</li>
+                            </ul>
+                            <div class="buy-title">
+                                <img src="img/dollar.svg" alt="dollar">
+                                <h3>Оплата</h3>
+                            </div>
+                            <ul class="delivery-list">
+                                <li>- При получении</li>
+                                <li>- Картой онлайн
+                                    (WayForPay)</li>
+                                <li>- Картой онлайн
+                                    (ConcordPay)</li>
+                                <li>- Рассрочка от банка</li>
+                                <li>- Безналичный р/с</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Anchors -->
+    <section class="anchors-contain">
+        <div class="anchors-wrap">
+            <div class="anchors-button">
+                <a href="#description">Описание</a>
+            </div>
+            <div class="anchors-button">
+                <a href="#character">Характеристики</a>
+            </div>
+            <div class="anchors-button">
+                <a href="#video">Видео</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advantages -->
+    <section class="advantages-contain">
+        <div class="card">
+            <div class="container-fluid">
+                <div class="card-title">
+                    <h4>Преимущества</h4>
+                    <div class="line"></div>
+                </div>
+                <div class="row advantages-wrap">
+                    <div class="col-6">
+                        <div class="advantages-item">
+                            <div class="advantages-img">
+                                <img src="img/lamp.svg" alt="lamp">
+                            </div>
+                            <p>Рециркуляторы оснащены высококачественными безозоновыми лампами низкого давления. Ресурс
+                                данных ламп составляет не менее <b>9000 часов.</b></p>
+                        </div>
+                        <div class="advantages-item">
+                            <div class="advantages-img">
+                                <img src="img/fan.svg" alt="lamp">
+                            </div>
+                            <p>В рециркуляторы устанавливаются прямоточные вентиляторы канального типа, что обеспечивает
+                                их стабильную работу и высокую эффективность.</p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="advantages-item">
+                            <div class="advantages-img">
+                                <img src="img/mobile.svg" alt="lamp">
+                            </div>
+                            <p>Стандартно каждый рециркулятор серии Аэрекс Профешенал комплектуется WI-FI управлением.
+                            </p>
+                        </div>
+                        <div class="advantages-item">
+                            <div class="advantages-img">
+                                <img src="img/virus.svg" alt="lamp">
+                            </div>
+                            <p>Рециркуляторы являются медицинскими, что подтвержденовсеми сертификатами - гарантирует
+                                бактерицидную эффективность Jбк до 99,9%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Desctiption -->
+    <section class="description-contain">
+        <div class="card">
+            <div class="container-fluid">
+                <div class="card-title">
+                    <h4>Описание</h4>
+                    <div class="line"></div>
+                </div>
+                <div class="description-wrap" id="description">
+                    <h4>Рециркулятор бактерицидный медицинский Аэрекс Стандарт 8</h4>
+                    <p>Рециркулятор бактерицидный медицинский Аэрекс Стандарт 8 предназначен для обеззараживания
+                        (кварцевания) воздуха в помещениях от вирусов, бактерий, спор, грибов и других микроорганизмов
+                        путем принудительной циркуляции воздуха через зону облучения бактерицидной лампы. Рециркуляторы
+                        являются эффективным противоэпидемическим и профилактическим средством. Данное оборудование
+                        эксплуатируется как присутствии, так и в отсутствии людей, животных и растений.</p>
+                    <p>Рециркулятор бактерицидный медицинский Аэрекс-стандарт 8 рекомендован для помещений категорий II,
+                        III, IV, V, а так же для I категории помещений в сочетании с бактерицидными облучателями
+                        открытого типа.</p>
+                    <p>Рекомендован для использования в таких категориях помещений:</p>
+                    <div class="description-img">
+                        <img src="img/description.png" alt="description">
+                    </div>
+                    <ul class="description-list">
+                        <li><b>I.</b>Операционные, предоперационные, родильные, стерильные зоны</li>
+                        <li><b>II.</b>Перевязочные, комнаты стерилизации, палаты, отделения иммуноослабленных больных,
+                            палаты реанимационных отделений,
+                            станции переливания крови, фармацевтические цеха.</li>
+                        <li><b>III.</b>Палаты, кабинеты</li>
+                        <li><b>IV.</b> Детские игровые комнаты, школьные классы, военные части, торговые залы
+                            супермаркетов и магазинов самообслуживания, офисные помещения, банки и непосредственно возле
+                            рабочих мест, квартиры, пенитенциарные и государственные учреждения, общественные места, в
+                            том числе вокзалы
+                            и аэропорты.</li>
+                        <li><b>V.</b>Комнаты для курения, места общественного пользования, лестничные площадки,
+                            промышленность</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Character -->
+    <section class="character-contain">
+        <div class="card">
+            <div class="card-title">
+                <h4>Характеристики</h4>
+                <div class="line"></div>
+            </div>
+            <div class="character-wrap">
+                <ul class="character" id="character">
+                    <h4 class="character-title">РЕЦИРКУЛЯТОР БАКТЕРИЦИДНЫЙ АЭРЭКС СТАНДАРТ 8</h4>
+                    <li>
+                        <div class="character-left">Страна происхождения</div>
+                        <div class="character-right character-bold">Украина</div>
+                    </li>
+                    <li>
+                        <div class="character-left">Источник УФ излучения</div>
+                        <div class="character-right character-bold">Безозоновая бактерицидная лампа</div>
+                    </li>
+                    <li>
+                        <div class="character-left">Мощность лампы, Вт</div>
+                        <div class="character-right character-bold">8</div>
+                    </li>
+                    <li>
+                        <div class="character-left">Количество бактерицидных ламп, шт</div>
+                        <div class="character-right character-bold">1</div>
+                    </li>
+                    <li>
+                        <div class="character-left">Эффективный ресурс работы ламп, не менее, ч</div>
+                        <div class="character-right character-bold">9000</div>
+                    </li>
+                    <li>
+                        <div class="character-left">Мощность УФ излучения, Вт</div>
+                        <div class="character-right character-bold">5,97</div>
+                    </li>
+                    <li>
+                        <div class="character-left">Длина волны преобладающего излучения, нм</div>
+                        <div class="character-right character-bold">253,7 нм</div>
+                    </li>
+                    <li>
+                        <div class="character-left">Производительность, м3/ч</div>
+                        <div class="character-right character-bold">105</div>
+                    </li>
+                    <li>
+                        <div class="character-left">Мощность, Вт</div>
+                        <div class="character-right character-bold">50</div>
+                    </li>
+                    <li>
+                        <div class="character-left">Напряжение, в стандартном настенном исполнении, В</div>
+                        <div class="character-right character-bold">~220+-10%</div>
+                    </li>
+                    <li>
+                        <div class="character-left">Напряжение, в виброустойчивом исполнении, В </div>
+                        <div class="character-right character-bold">-12В; -24В; -110В</div>
+                    </li>
+                    <li>
+                        <h4 class="character-left character-title">Сфера использования</h4>
+                        <div class="character-right character-bold">медицинские учреждения, торговые, офисные и учебные
+                            помещения,
+                            пищевая промышленность, дома, квартиры, Fast-food, транспортные средства и. т.д.</div>
+                    </li>
+                    <li>
+                        <div class="character-left">Тип установки</div>
+                        <div class="character-right character-bold">Стационарный</div>
+                    </li>
+                    <li>
+                        <div class="character-left">Способ установки</div>
+                        <div class="character-right character-bold">Настенный/Потолочный</div>
+                    </li>
+                    <li>
+                        <div class="character-left">Вид</div>
+                        <div class="character-right character-bold">Рециркулятор</div>
+                    </li>
+                    <li>
+                        <div class="character-left">Комплектация шнуром</div>
+                        <div class="character-right character-bold">Нет</div>
+                    </li>
+                    <li>
+                        <div class="character-left">Гарантия, мес</div>
+                        <div class="character-right character-bold">12</div>
+                    </li>
+                    <li>
+                        <h4 class="character-title">Материал изготовления</h4>
+                    </li>
+                    <li>
+                        <div class="character-left">Материал корпуса</div>
+                        <div class="character-right character-bold">Металл</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video -->
+    <section class="video-contain">
+        <div class="card">
+            <div class="card-title">
+                <h4>Видео</h4>
+                <div class="line"></div>
+            </div>
+            <div class="video-box">
+                <div class="video">
+                    <img src="img/video.png" alt="Video">
+                </div>
+                <div class="video-play">
+                    <a id="video"><img src="img/play.svg" alt="Play"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- More -->
+    <section class="more">
+        <div class="container-fluid">
+            <h3 class="more-title">Еще из этой серии</h3>
+            <div class="more-slider">
+                <div class="more-item">
+                    <div class="more-left">
+                        <p class="more-text">Рецикулятор бактерицидный аэрэкс стандарт 8</p>
+                        <h3 class="more-subtitle">3100 грн</h3>
+                        <div class="more-buy">
+                            <a href="/buy">Купить</a>
+                        </div>
+                        <div class="more-click">
+                            <a href="/one-click">Купить в один клик</a>
+                        </div>
+                    </div>
+                    <div class="more-right">
+                        <div class="product-more">
+                            <img src="img/product-slider.png" alt="product">
+                        </div>
+                        <div class="more-libra">
+                            <a><img src="img/libra-button.png" alt="libra"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row footer-content">
+                <div class="col-3 footer-contact">
+                    <div class="footer-title">
+                        <img src="img/footer-logo.png" alt="">
+                    </div>
+                    <p class="text-bold">+38 (044) 334-47-47</p>
+                    <p>адрес Киев, ул. Северо-Сырецкая, 3</p>
+                </div>
+                <div class="col-3 footer-links">
+                    <h3>Продукты</h3>
+                    <ul>
+                        <li><a href="/">Бактерицидные рециркуляторы</a></li>
+                        <li><a href="/">Бактерицидные облучатели</a></li>
+                        <li><a href="/">Бактерицидные лампы</a></li>
+                    </ul>
+                </div>
+                <div class="col-2 footer-links">
+                    <h3>доставка</h3>
+                    <ul>
+                        <li><a href="/">Доставка и оплата</a></li>
+                        <li><a href="/">Условия возврата</a></li>
+                    </ul>
+                </div>
+                <div class="col-1 footer-links">
+                    <h3>контакты</h3>
+                </div>
+                <div class="col-3 social-networks">
+                    <ul>
+                        <li><a href="/facebook"><img src="img/facebook-icon.svg" alt="facebook"></a></li>
+                        <li><a href="/instagram"><img src="img/instagram-icon.svg" alt="instagram"></a></li>
+                        <li><a href="/in"><img src="img/in-icon.svg" alt="in"></a></li>
+                        <li><a href="/youtube"><img src="img/youtube-icon.svg" alt="youtube"></a></li>
+                        <li><a href="/twitter"><img src="img/twitter-icon.svg" alt="twitter"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row footer-subcontent">
+                <div class="col-6 footer-description">
+                    <p>Компания AEREKS входит в группу компаний ЗАВЕТ</p>
+                </div>
+                <div class="col-6 footer-copyright">
+                    <p>Terms of service. Privacy policy</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Connect Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
+    <!-- Slick slider -->
+    <script src="js/slick.min.js"></script>
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

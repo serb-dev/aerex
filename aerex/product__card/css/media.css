@@ -1,0 +1,864 @@
+@media(min-width: 320px){
+
+    .bread__crumbs {
+        padding: 3rem 0 0 0;
+    }
+
+    .breadcrumb-item{
+        font-size: 0.75rem;
+    }
+
+    .left__side {
+        padding: 0 1rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .mini__line{
+        width: 50%;
+    }
+
+    .information-box {
+        padding: 0 0.5rem 0;
+        margin: 1rem auto;
+    }
+
+    .all__about {
+        padding: 2rem 0 1.25rem;
+    }
+
+    .all__about h3{
+        font-size: 0.875rem;
+        padding: 0 1rem;
+    }
+
+    .components__block img{
+        width: 100%;
+    }
+
+    .components {
+        padding: 0.875rem 0 0.5rem 0;
+    }
+
+    .mini__img{
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    .title{
+        padding: 0.5rem 0 0.5rem 0;
+        font-size: 0.875rem;
+        font-weight: 500;
+    }
+
+    .hiden__title{
+        display: none;
+    }
+
+    .litle__title{
+        padding-left: 1rem;
+    }
+
+    .title__code{
+        padding-left: 1rem;
+        font-size: 0.625rem;
+    }
+
+    .price__block{
+        padding-left: 0;
+    }
+
+    .price h2 {
+        font-size: 1.375rem;
+        padding-top: 1rem;
+    }
+
+    .quantity-block {
+        margin: 1rem 0 0 3rem;
+    }
+
+    .options{
+        color: rgba(0, 0, 0, 0.42);
+        margin: 1rem 0;
+        font-size: 0.8rem;
+        padding: 3rem 7rem 2rem;
+    }
+
+    .basket__btn{
+        font-size: 0.75rem;
+        padding: 0.8125rem 1.5rem;
+    }
+
+    .basket__block {
+        padding: 0.5rem 0 0.625rem;
+    }
+
+    .btn__group {
+        padding: 1rem 0;
+    }
+
+    .buy__btn a{
+        font-size: 0.75rem;
+        padding: 0.8125rem 1.31rem;
+    }
+
+    .sideways__menu{
+        border: none;
+    }
+
+    .anchors{
+        padding: initial;
+    }
+
+    .anchor__item + .anchor__item{
+        padding-left: 5px;
+    }
+
+    .anchor__item a{
+        font-size: 0.5rem;
+        font-weight: 700;
+        padding: .5rem 1.4375rem;
+    }
+
+    .advantage{
+        padding: 0 0.5rem 0;
+    }
+
+    .advantage__title h4{
+        font-size: 0.9375rem;
+    }
+
+    .wrap {
+        padding: 1em 0em;
+    }
+
+    .advantage__text{
+        font-size: 0.875rem;
+    }
+
+    .description__title h4{
+        font-size: 0.9rem;
+    }
+
+    .description h5{
+        font-size: 0.875rem;
+    }
+
+    .aerex__image img{
+        width: 100%;
+    }
+
+    .aerex__logo img{
+        width: 39px;
+    }
+
+    .number__list{
+        padding: 0.625rem 0;
+        font-size: 0.875rem;
+    }
+
+    .open-txt{
+        padding: 0.5rem 0 2rem 3rem;
+        color: #3FAAE0;
+    }
+    
+    .character__box{
+        padding: 0;
+    }
+    
+    .character__main {
+        text-transform: uppercase;
+        font-size: 0.9375rem;
+    }
+
+    .video__line{
+        margin-top: 0.5rem;
+    }
+
+    .video__block{
+        padding: 0 1rem 2rem 1rem;
+    }
+
+    .play{
+        top: 20%;
+        left: 43%;
+    }
+
+    .play img{
+        width: 46px;
+    }
+
+    .character-left{
+        margin-right: initial;
+        width: 100%;
+    }
+
+    .character-left:after{
+        margin: initial;
+    }
+
+    .character-right{
+        margin: initial;
+        padding: initial;
+        width: initial;
+    }
+
+    .character__main {
+        padding: 2rem 1rem 1rem 0;
+    }
+
+    .more__main {
+        font-size: 1.25rem;
+        padding: 1rem 0;
+        color: #676767;
+    }
+
+    .more__title {
+        font-size: 0.9375rem;
+        padding: 1rem 0 0;
+    }
+
+    .more__cost {
+        font-size: 1.5rem;
+    }
+
+    .buy__more-btn a {
+        font-size: 0.75rem;
+        padding: 0.5rem 2rem;
+    }
+
+    .btn__more-group {
+        padding: 0;
+    }
+
+    .buy__more-btn {
+        text-align: center;
+        padding: 0.5rem 0 0.5rem;
+    }
+
+    .one__click a {
+        padding: 0.5rem .2rem;
+        font-size: 0.6rem;
+    }
+    
+    .slick-slide img {
+        display: block;
+    }
+
+    .more__scale {
+        max-width: 30%;
+        top: 71%;
+        right: 62%;
+        padding: 0.5rem;
+    }
+
+    .more__left {
+        padding: 1rem 0 1rem 1rem;
+    }
+
+    .more__right {
+        margin-top: 3rem;
+    }
+
+    .more__image img {
+        max-width: 100%;
+    }
+}
+
+@media(min-width: 375px){
+
+    .left__side {
+        padding: 0 1rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .mini__line{
+        width: 50%;
+    }
+
+    .all__about {
+        padding: 2rem 0 1.25rem;
+    }
+
+    .all__about h3{
+        font-size: 0.875rem;
+        padding: 0 1rem;
+    }
+
+    .information-box {
+        padding: 0 0.5rem 0;
+        margin: 1rem auto;
+    }
+
+    .components__block img{
+        width: 100%;
+    }
+
+    .components {
+        padding: 0.875rem 0 0.5rem 0;
+    }
+
+    .mini__img{
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    .title{
+        font-size: 0.875rem;
+        font-weight: 500;
+    }
+
+    .title__code{
+        font-size: 0.625rem;
+    }
+
+    .price__block{
+        padding-left: 2rem;
+    }
+
+    .price h2 {
+        font-size: 1.375rem
+    }
+
+    .basket__block {
+        padding: 1.5rem 0 0.625rem 1.5rem;
+    }
+
+    .btn__group {
+        padding: 1rem 0 1rem 1.5rem;
+    }
+
+    .sideways__menu{
+        border: none;
+    }
+
+    .anchor__item a {
+        font-size: 0.6rem;
+    }
+
+    .anchor__link{
+        font-size: 0.8rem;
+        font-weight: 700;
+    }
+
+    .anchor__item + .anchor__item {
+        padding-left: .5rem;
+    }
+
+    .line {
+       margin-bottom: 0.7rem;
+    }
+
+    .advantage{
+        padding: 0 0.5rem 0;
+    }
+
+    .advantage__title h4{
+        font-size: 0.9375rem;
+    }
+
+    .wrap {
+        padding: 1em 0em;
+    }
+
+    .advantage__text{
+        font-size: 0.875rem;
+    }
+
+    .description__title h4{
+        font-size: 0.9rem;
+    }
+
+    .description h5{
+        font-size: 0.875rem;
+    }
+
+    .aerex__image img{
+        width: 100%;
+    }
+
+    .aerex__logo img{
+        width: 39px;
+    }
+
+    .number__list{
+        padding: 0.625rem 0;
+        font-size: 0.875rem;
+    }
+    
+    .character__box{
+        padding: 0;
+    }
+    
+    .character__main{
+        padding: 1rem;
+        font-size: 0.875rem;
+    }
+
+    .video__block{
+        padding: 2rem;
+    }
+
+    .play{
+        top: 30%;
+    }
+
+    .play img{
+        width: 46px;
+    }
+
+    .video__block{
+        padding: 0 0.5rem 2rem 0.5rem;
+    }
+
+    .more__right {
+        margin-top: 2rem;
+    }
+
+    .more__scale {
+        top: 73%;
+        right: 70%;
+        padding: 0.2rem;
+    }
+    
+}
+
+@media (min-width: 425px){
+    .more__right {
+        margin-top: 0rem;
+    }
+
+    .anchor__item a {
+        font-size: 0.8rem;
+    }
+
+    .more__scale {
+        top: 74%;
+        right: 76%;
+    }
+}
+
+@media(max-width: 575px){
+
+    img.image {
+        max-width: 80px;
+        text-align: right;
+    }
+
+    .advantage__text {
+        text-align: center;
+    }
+}
+
+
+
+@media(min-width: 768px){
+
+    .bread__crumbs {
+        padding: 5rem 0 0;
+    }
+
+    .hiden__title{
+        display: block;
+    }
+
+    .litle__title{
+        display: none;
+    }
+
+    .all__about h3 {
+        font-size: 1.2rem;
+    }
+
+    .options{
+        padding: 3rem;
+    }
+
+    .basket__btn{
+        font-size: 0.875rem;
+    }
+
+    .basket__block {
+        padding: 0 0 0.625rem 1rem;
+    }
+
+    .btn__group {
+        padding: 1rem 0 0 1rem;
+    }
+
+    .buy__btn a{
+        font-size: 0.875rem;
+    }
+
+    .anchors{
+        padding: 1rem 0;
+    }
+
+    .anchor__item a{
+        font-size: 0.875rem;
+    }
+
+    .mini__line{
+        width: 70%;
+    }
+
+    .title {
+        font-size: 1.25rem;
+    }
+
+    .title__code {
+        font-size: initial;
+    }
+
+    .price h2 {
+        font-size: 2rem;
+        padding: initial;
+    }
+
+    .aerex__logo img{
+        width: initial;
+    }
+
+    .character-right {
+        padding-left: 0.9375rem;
+        margin-left: 50%;
+        width: 50%;
+    }
+
+    .character-left{
+        margin-right: -50%;
+        width: 41%;
+    }
+
+    .character-left:after{
+        margin: 0 -99% 0 0.9375rem;
+    }
+
+    .character{
+        padding-left: 2rem;
+    }
+
+    .character__main{
+        padding: 2rem 1rem 1rem 2rem;
+    }
+
+    .line{
+        width: 65%;
+    }
+
+    .video__line{
+        width: 84%;
+    }
+
+    img.image{
+        max-width: initial;
+    }
+
+    .more__scale {
+        top: 76%;
+        right: 68%;
+    }
+}
+
+@media(min-width: 1024px){
+
+    .options {
+        padding: 6rem;
+        margin-top: 3rem;
+    }
+
+    .basket__block {
+        padding: 2rem 0 0.625rem 1rem;
+    }
+
+    .advantage__title{
+        padding: 0 5rem;
+    }
+
+    .advantage--left{
+        padding-left: 5rem;
+    }
+
+    .advantage--right{
+        padding-right: 5rem;
+    }
+
+    .description{
+        padding: 0 5rem;
+    }
+
+    .aerex__image img{
+        padding: 0 5rem;
+    }
+
+    .aerex__logo{
+        right: 10%;
+    }
+
+    .number__list{
+        padding: 0 5rem;
+    }
+
+    .character{
+        padding-left: 5rem;
+    }
+
+    .character__main{
+        padding: 2rem 1rem 1rem 5rem;
+        font-size: 1.125rem;
+    }
+
+    .line{
+        width: 80%;
+    }
+
+    .video__block{
+        padding: 2.5rem;
+    }
+
+    .play{
+        top: 45%;
+        left: 45%;
+    }
+    
+    .play img{
+        width: 68px;
+    }
+
+    .more__main {
+        font-size: 1.5rem;
+        padding: 3.75rem 0 1.6875rem 2.4375rem;
+    }
+
+    .more__title {
+        font-size: 1.125rem;
+        padding: 1.25rem 0 2.625rem 1.25rem;
+    }
+
+    .more__cost {
+        font-size: 1.5rem;
+        padding-left: 1.25rem;
+    }
+
+    .buy__more-btn {
+        padding: 1rem 0 2rem;
+    }
+
+    .one__click a {
+        font-weight: 700;
+        padding: 1rem 0.5rem;
+        font-size: 0.875rem;
+    }
+
+    .buy__more-btn a {
+        font-size: 0.875rem;
+        padding: 1rem 4rem;
+    }
+
+    .more__scale {
+        top: 74%;
+        right: 70%;
+        padding: 0.5rem;
+    }
+
+    .more__left {
+        padding: 1rem 0 3rem 1rem;
+    }
+
+    .more__left {
+        padding-left: 1rem;
+    }
+    
+}
+
+@media(min-width: 1366px){
+
+    breadcrumb-item a{
+        font-size: 0.75rem;
+    }
+
+    .navbvar-brand{
+        padding: 2rem 4rem 2rem 3rem;
+    }
+
+    .bread__crumbs {
+        padding: 7.5rem 1.875rem 0 0;
+    }
+
+    .information-box{
+        padding: 0 1.875rem 0;
+    }
+
+    .mini__line {
+        width: 80%;
+    }
+
+    .all__about{
+        padding: 2.5rem 0 1.25rem 9.125rem;
+    }
+
+    .all__about h3{
+        font-size: 1.125rem;
+    }
+
+    .left__side{
+        padding-left: 3.8125rem;
+        padding-bottom: 2.685rem;
+    }
+
+    .title{
+        padding: 2.5625rem 0 0.6875rem 3.75rem;
+        font-size: 1.25rem;
+    }
+
+    .title__code{
+        padding-left: 3.75rem;
+    }
+    
+    .price__block{
+        padding-left: 3.75rem;
+    }
+    
+    .price h2{
+        font-size: 2rem;
+    }
+    
+    strike{
+        font-size: 1.125rem;
+    }
+
+    .quantity-block {
+        margin: 2rem 0 0 5rem;
+        display: flex;
+        justify-content: space-between;
+        width: 70px;
+        height: 40px;
+      }
+
+      .options{
+        margin: 3rem 0 0 3.75rem;
+        padding: 3.9735rem 7rem;
+    }
+    
+    .btn__group{
+        padding: 1.625rem 0 0 3.75rem;
+    }
+    
+    .basket__block{
+        padding: 1.625rem 0 0.625rem 3.75rem;
+    }
+    
+    .basket__btn{
+        padding: 1rem 2.1rem;
+        font-size: 0.875rem;
+    }
+    
+    .buy__btn a{
+        font-size: 0.875rem;
+        padding: 1rem 2.1rem;
+    }
+    
+    .scale{
+        margin-left: 1.25rem;
+        padding: 0.8rem;
+    }
+
+    .sideways__menu{
+        border-left: 1px solid rgba(0, 0, 0, 0.09);
+    }
+
+    .anchor__item a {
+        font-size: 0.9375rem;
+        padding: 1rem 2.6875rem;
+    }
+
+    .anchors {
+        padding-left: 2rem;
+    }
+
+    .advantage__text {
+        font-size: initial;
+    }
+
+    .description h5{
+        padding: 0.5rem 0 0.9rem 0;
+    }
+
+    .description__title h4{
+        padding-right: 1.9rem;
+        font-size: 1.125rem;
+    }
+
+    .advantage__title{
+        padding: 0 8.1rem;
+    }
+
+    .advantage--left{
+        padding-left: 8.1rem;
+    }
+
+    .advantage--right{
+        padding-right: 8.1rem;
+    }
+
+    .number__list{
+        padding: 2.875rem 5rem;
+    }
+
+    .last__description{
+        padding-bottom: 2rem;
+    }
+
+    .more__scale{
+        top: 74%;
+        right: 78%;
+    }
+}
+
+@media(min-width: 1440px){
+
+    .title {
+        padding: 3.5625rem 0 0.6875rem 3.75rem;
+        font-size: 1.25rem;
+    }
+    .options {
+        margin: 4rem 0 0 3.75rem;
+        padding: 4.9735rem 7rem;
+    }
+}
+
+@media(min-width: 1600px){
+
+    .open-txt{
+        padding-left: 10rem;
+    }
+}
+
+@media(min-width: 2000px){
+
+    .anchors{
+        max-width: 1440px;
+    }
+
+    .anchors__box{
+        padding-left: 17rem;
+        justify-content: center;
+    }
+}
+
+@media(min-width: 2560px){
+
+    .open-txt{
+        padding-left: 40rem;
+    }
+}
+
+.more .more-slider {
+    width: 98%;
+    margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+    .navbar-collapse {
+        order:5;
+    }
+}

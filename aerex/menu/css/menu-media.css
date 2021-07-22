@@ -1,0 +1,282 @@
+html{
+    --bg: #F6F6F6;
+    --hover: #2B759A;
+    --links: #3FAAE0;
+}
+
+@media(min-width: 320px){
+
+    .navbar-light .navbar-nav .nav-link.language{
+        display: none;
+    }
+    
+    #phone__drop{
+        display: none;
+    }
+
+    .navbar-nav .dropdown-menu {
+        border: none;
+    }
+
+    .nav__phone-bg{
+        display: block;
+        background-color: var(--links);
+        color: #fff !important;
+        text-align: center;
+        border-radius: 30px;
+        margin-top: 2rem;
+        padding: 1rem;
+        max-width: 60%;
+    }
+
+    .navbar-nav{
+        height: 100vh;
+        padding-top: 2rem;
+    }
+
+    .navbvar-brand {
+        padding-left: 0;
+    }
+
+    .navbar-light .navbar-toggler-icon{
+        margin-left: -1rem;
+    }
+
+    .navbvar-brand img{
+        max-width: 83px;
+        min-height: 19px;
+    }
+
+    .nav-link {
+        font-size: 0.8125rem;
+    }
+
+    .dropdown-item{
+        font-size: 0.8125rem;
+    }
+
+    .mini__nav{
+        border: none;
+    }
+
+    .btn{
+        padding: 0;
+    }
+
+    .btn-secondary {
+        color: #fff;
+        background-color: #fff;
+        border: none;
+    }
+
+    .btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+        color: #fff;
+        background-color: #ffffff;
+        border: none;
+    }
+
+    .dropdown-toggle::after {
+        display: inline-block;
+    }
+
+    .btn-secondary:hover {
+        color: #fff;
+        background-color: #F6F6F6;
+        border: none;
+    }
+
+    .menu__btn{
+        padding: initial;
+    }
+
+    .menu__scale{
+        max-width: 30%;
+    }
+
+    .menu__market{
+        max-width: 40%;
+    }
+
+    .eclipse {
+        right: 33%;
+        top: 37%;
+        max-width: 25%;
+    }
+
+    .menu__image + .menu__image{
+        padding-left: 0.5rem;
+    }
+
+    .mini-phone__block{
+        display: block;
+    }
+
+    .nav__phone{
+        display: none;
+    }
+}
+
+@media(min-width: 768px){
+
+    .nav__phone-bg{
+        width: 30%;
+    }
+
+    .navbvar-brand img{
+        max-width: 100%;
+    }
+
+    .navbvar-brand {
+        padding: 1rem 6rem 1rem 2rem;
+    }
+
+    .mini__phone{
+        display: none;
+    }
+
+    .nav__phone{
+        display: block;
+    }
+
+    .menu__image + .menu__image {
+        padding-left: 1rem;
+    }
+
+    .menu__scale {
+        max-width: initial;
+    }
+
+    .menu__market {
+        max-width: initial;
+    }
+
+    .eclipse {
+        top: 37%;
+        right: 15%;
+        max-width: 34%;
+    }
+
+    .mini__nav{
+        top: initial;
+        left: initial;
+    }
+}
+
+@media(min-width: 425px){
+
+    .nav__phone-bg {
+        max-width: 40%;
+    }
+}
+
+@media(min-width: 1024px){
+    .nav__phone-bg{
+        display: none;
+    }
+
+    .navbar-light .navbar-nav .nav-link.language{
+        display: block;
+    }
+    
+    #language-first{
+        display: none;
+    }
+
+    .navbar-nav{
+        height: initial;
+        padding-top: initial;
+    }
+
+    #phone__drop{
+        display: block;
+    }
+
+    .navbvar-brand {
+        padding: 1rem 2rem 1rem 1rem;
+    }
+
+    .nav-item + .nav-item{
+        border-top: none;
+    }
+
+    .nav-link{
+        font-size: 0.7rem;
+    }
+
+    .nav__phone {
+        margin-right: 0.5rem;
+    }
+
+    .eclipse{
+        right: 15%;
+    }
+}
+
+@media(min-width: 1366px){
+
+    .navbvar-brand {
+        padding: 1rem 6rem 1rem 1rem;
+    }
+
+    .nav-link{
+        font-size: 0.8125rem;
+    }
+
+    .nav-item + .nav-item {
+        padding-left: 1rem;
+    }
+
+    .menu__image + .menu__image {
+        padding-left: 2rem;
+    }
+
+    .menu__btn {
+        padding-right: 2rem;
+    }
+
+     .nav__phone {
+        margin-right: 1.5rem;
+    }
+
+    .eclipse {
+        top: 35%;
+        right: 34%;
+    }
+}
+
+@media(min-width: 1400px){
+    .nav__phone {
+        margin-right: 2.5rem;
+    }
+
+    .fixed-top{
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    .navbvar-brand{
+        margin: initial;
+        padding: 1rem 10rem 1rem 1rem;
+    }
+}
+
+@media(min-width: 1600px){
+
+    .nav__phone {
+        margin-right: 2.5rem;
+    }
+}
+
+@media(min-width: 2000px){
+
+    .nav-item + .nav-item{
+        padding-left: 1rem;
+    }
+}
+
+
+@media (max-width: 960px) {
+    .navbar-collapse {
+        order:5;
+    }
+}

@@ -1,0 +1,332 @@
+@media(min-width: 375px){
+
+    .comparison__title {
+        padding: 0 1.5625rem 1rem 0.625rem;
+    }
+
+    .cancell {
+        top: -8%;
+        right: 83%;
+    }
+    
+}
+
+@media(min-width: 425px){
+
+    .cancell {
+        top: -10%;
+        right: 81%;
+    }
+}
+
+@media(min-width: 768px){
+
+    .breadcrumb{
+        padding-top: 6rem;
+    }
+
+    .comparison {
+        padding-top: 1em;
+    }
+
+    .comparison-list{
+        margin: 0 1.5rem 3rem;
+    }
+
+    .comparison__title h1{
+        font-size: 2em;
+    }
+
+    .comparison__title p {
+        font-size: 1rem;
+        padding-top: 1rem;
+    }
+
+    .comparison__title {
+        padding: 1rem 0 1.5rem 1.5rem;
+    }
+
+    .product__wrap{
+        padding-bottom: 1rem;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+        border-radius: 30px;
+    }
+
+    .cancell{
+        top: 17%;
+        right: 13%;
+    }
+
+    .product__title {
+        font-size: 1rem;
+        margin: 1rem;
+    }
+
+    .btn__group{
+        display: block;
+        padding-top: 2rem;
+    }
+
+    .cost{
+        display: block;
+        padding: 1rem 0 0 1rem;
+    }
+
+    .buy__btn a {
+        padding: 0.9rem 7rem;
+        font-size: 0.875rem;
+    }
+
+    .click__btn a {
+        padding: 0.9rem 2rem;
+        font-size: 0.875rem;
+    }
+
+    .scale__balance {
+        top: 55%;
+        right: 5%;
+    }
+
+    .comparison__text{
+        font-size: initial;
+    }
+
+    .comparison__item {
+        font-size: 1rem;
+    }
+
+    .aerex-first{
+        margin: 1rem 0 0 0rem;
+    }
+
+    .aerex-second {
+        max-width: 80%;
+        margin: 1rem 0 0 5rem;
+    }
+
+    .new__line{
+        display: block;
+        width: 166%;
+        top: 51%;
+        right: -33.5%;
+    }
+}
+
+@media(min-width: 1024px){
+
+    .product__wrap{
+        display: flex;
+        justify-content: start;
+        margin: 1rem;
+    }
+
+    .left__product-side{
+        order: 2;
+    }
+
+    .comparison__title {
+        padding: 1rem 0 1rem 2rem;
+    }
+
+    .aerex-first{
+        max-width: 100%;
+        margin: 3rem 3.5rem 0 0;
+    }
+
+    .aerex-second{
+        padding: 4rem 0 2rem;
+        margin: initial;
+    }
+
+    .cost{
+        padding-left: 2rem;
+    }
+
+    .buy__btn{
+        text-align: left;
+        padding-left: 1rem;
+    }
+
+    .buy__btn a {
+        padding: 0.7rem 4rem;
+    }
+
+    .click__btn {
+        padding: 1.3rem 0 0 1rem;
+        text-align: left;
+    }
+
+    .click__btn a{
+        padding: 0.7rem 0.8rem;
+    }
+
+
+    .cancell {
+        top: 17%;
+        right: 12%;
+    }
+
+    .scale__balance {
+        right: -3%;
+        top: 51%;
+    }
+
+    #right__scale{
+        right: 4%;
+    }
+
+    .btn__group{
+        padding: 1rem 0;
+    }
+
+    .new__line {
+        display: block;
+        width: 116%;
+        top: 51%;
+        right: -8%;
+    }
+}
+
+@media(min-width: 1366px){
+
+    .comparison-list {
+        padding: 2rem 1rem 1rem;
+        margin: 0 2rem 4rem;
+    }
+
+    .comparison__title h1 {
+        font-size: 2.25em;
+    }
+
+    .comparison__title p{
+        line-height: 18px;
+    }
+
+    .product__title {
+        margin: 1rem 0 1rem 1rem;
+    }
+
+    .aerex-first{
+        margin: 3rem 3rem 0 0;
+    }
+
+    .aerex-second {
+        max-width: 90%;
+        padding: 3rem 0;
+    }
+
+    .product__wrap{
+        margin: initial;
+    }
+
+    .cost{
+        padding: 2rem 0 0 1rem;
+    }
+
+    .buy__btn a {
+        padding: 0.875rem 4rem;
+        font-size: 0.875rem;
+    }
+
+    .click__btn{
+        margin: 0.2rem auto;
+    }
+
+    .click__btn a {
+        padding: 0.875rem 0.8rem;
+        font-size: 0.875rem;
+    }
+
+    .scale__balance {
+        right: -8%;
+        top: 51%;
+    }
+
+    #right__scale {
+        right: -2%;
+    }
+
+    .list{
+        padding: 2rem 1rem;
+    }
+
+    .comparison__item{
+        padding-top: 3em;
+        border-bottom: 1px dashed #d3d3d3;
+        margin-top: 0.6rem;
+    }
+    
+    .comparison__text{
+        padding-top: 3rem;
+        border-top: none;
+    }
+    
+    p{
+        margin-bottom: 0;
+    }
+
+    .first__text{
+        border-left: none;
+    }
+
+    .new__line {
+        width: 64%;
+        top: 54%;
+        right: 1%;
+    }
+
+    .second__line{
+        width: 64%;
+        top: 54%;
+        right: 34.5%;
+        display: block;
+    }
+}
+
+@media(min-width: 1440px){
+
+    .new__line {
+        width: 59%;
+        top: 54%;
+        right: 4%;
+    }
+
+    .second__line {
+        width: 59%;
+        top: 54%;
+        right: 37%;
+    }
+}
+
+@media (min-width: 2000px){
+
+    .comparison__item {
+        font-size: 1.5rem;
+    }
+    
+    .comparison__text{
+        margin-top: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .aerex-second {
+        max-width: 90%;
+        padding: 4rem 0;
+    }
+
+    .back__btn a{
+        font-size: 1.3rem;
+    }
+
+    .new__line {
+        width: 85%;
+        top: 54%;
+        right: -9%;
+    }
+
+    .second__line {
+        width: 85%;
+        top: 54%;
+        right: 24%;
+    }
+}
